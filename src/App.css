@@ -1,3 +1,18 @@
+/* New Colors I am using: 
+purple: #7f71e5 / #9278ee
+pink:#d788e2
+yellow: #ffce29  /  #ffeb18
+*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +29,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #4b4b4d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +39,356 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.headerDiv {
+  background-image: url('https://i0.wp.com/ohcbrands.com/wp-content/uploads/2018/04/69648590-header-wallpapers.jpg?ssl=1');
+  height: 500px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: red
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.theButton {
+  position: relative;
+  top: 60%;
+}
+
+.width100 {
+  width: 100%;
+}
+
+/* ############################### Header section ################################ */
+
+.currency-logo {
+  color: white;
+  font-size: 1.5em;
+}
+
+.nav-buttons {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-buttons:hover {
+  color: white;
+  /* background-color: red; */
+}
+
+.nav-links {
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+}
+
+.navbar-styling {
+  background-color: #9278ee;
+  height: 70px;
+  color: white
+}
+
+
+/* ########################### Banner Section #################### */
+
+section.main-banner {
+  margin-top: 0px;
+}
+
+.main-banner {
+  padding-top: 30px;
+}
+
+.main-banner .right-image {
+  margin-left: 120px;
+  position: relative;
+  z-index: 2;
+}
+
+.main-banner .right-image img {
+  position: relative;
+  z-index: 2;
+}
+
+.main-banner .header-text::after {
+  position: absolute;
+  width: 214px;
+  height: 429px;
+  content: '';
+  left: 0;
+  bottom: -240px;
+  z-index: 1;
+}
+
+.main-banner .header-text h6 {
+  position: relative;
+  z-index: 2;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #777777;
+  ;
+}
+
+.main-banner .header-text h2 {
+  position: relative;
+  z-index: 2;
+  margin-top: 20px;
+  font-size: 64px;
+  color: #111111;
+  font-weight: 900;
+  line-height: 74px;
+  margin-bottom: 40px;
+}
+
+.main-banner .header-text h2 em {
+  font-style: normal;
+  color: #d788e2;
+}
+
+.main-banner .main-button-gradient {
+  position: relative;
+  z-index: 2;
+}
+
+.main-banner-button {
+  border: solid 2px white;
+  color: white;
+  background-color: #9278ee;
+  font-weight: 1.5em;
+  width: 300px;
+}
+
+.main-banner-button:hover {
+  border: solid 2px #9278ee;
+  color: #9278ee;
+  background-color: white;
+  font-weight: 1.5em;
+  width: 300px;
+
+}
+
+.mainBanner-links {
+  text-decoration: none;
+  color: white
+}
+
+.mainBanner-links:hover {
+  text-decoration: underline;
+  color: #9278ee
+}
+
+/* ################################## Currency Converterr Part #########################  */
+.Currency_Converter_Container {
+  /* border: solid 2px blue; */
+  background-color: #f3f5fa;
+}
+
+.purpleColor {
+  color: #9278ee
+}
+
+.optiontrial {
+  /* background-image: url("../public/assets/flags/ae.png"); */
+  background-repeat: no-repeat;
+  /* background-position: bottom left;
+  padding-left: 30px;
+ */
+}
+
+.inputFlag {
+  width: 55px
+}
+
+.inputFlagDiv {
+  width: 55px
+}
+
+.selectStyle {
+  border: none;
+}
+
+
+/* .convert-button {
+  margin-top: 20px;
+  border: solid 2px white;
+  color: white;
+  background-color: #9278ee;
+  /* font-weight: bolder; 
+font-size: 1.3em;
+width: 300px;
+height: 50px;
+border-radius: 6px;
+}
+
+.convert-button:hover {
+  margin-top: 20px;
+  border: solid 2px #9278ee;
+  color: #9278ee;
+  background-color: white;
+  /* font-weight: bolder; 
+  width: 300px;
+  height: 50px;
+  border-radius: 6px;
+
+}
+
+*/
+.input-converter {
+  background-color: #eef2ff;
+}
+
+/* ################################## Currency Exchange Rates Part #########################  */
+.Currency_Exchange_Container {
+  background-color: #f3f5fa;
+}
+
+.a-full-row {
+  background-color: white;
+  color: black;
+}
+
+.a-full-row:hover {
+  background-color: rgb(177, 177, 177);
+  color: black;
+}
+
+/* .a-full-row:active {
+  background-color: ;
+  color: white;
+} */
+.see-more-button {
+  /* border-radius: 6px; */
+  border: solid 1px white;
+  background-color: white;
+  color: #9278ee;
+  text-decoration: underline;
+}
+
+.tableHeaders {
+  padding-bottom: 32px !important;
+}
+
+.backgroundWhite {
+  background-color: white;
+}
+
+/* ################################## Break Section Part #########################  */
+.break-section-button {
+  border: solid 2px #9278ee;
+  color: white;
+  background-color: #9278ee;
+  /* font-weight: bold; */
+  width: 370px;
+  height: 60px;
+}
+
+.input-style {
+  width: 370px;
+  height: 60px;
+}
+
+.invalidEmail {
+  color: red
+}
+
+.thank-you {
+  width: 300px;
+}
+
+/* ################################## FAQs Part #########################  */
+.blackText {
+  background-color: white !important;
+  color: black;
+}
+
+.FAQBackground {
+  background-color: #f3f5fa;
+}
+
+/* ################################## Footer Part #########################  */
+.footerBackground {
+  background-color: #9278ee;
+}
+
+.padding30 {
+  padding: 30px
+}
+
+.footer-button {
+  border: solid 2px white;
+  color: white;
+  background-color: #9278ee;
+  font-weight: 1.5em;
+  width: 495px;
+}
+
+.footer-button:hover {
+  border: solid 2px #9278ee;
+  color: #9278ee;
+  background-color: white;
+  font-weight: 1.5em;
+  width: 495px;
+
+}
+
+.paddingRight70 {
+  padding-right: 70px;
+}
+
+.footer-subscribe {
+  color: #9278ee;
+  text-align: center;
+}
+
+/* ################################## Error 404 Part #########################  */
+
+.error-section {
+  background-color: #f3f5fa;
+}
+
+.error-main-container {
+  height: 100vh;
+  background-color: #f3f5fa;
+  /* border: solid 2px red; */
+}
+
+.error-button {
+  border: solid 2px white;
+  color: white;
+  background-color: #9278ee;
+  font-weight: 1.5em;
+  border-radius: 6px;
+  height: 40px;
+  width: 100%;
+}
+
+.error-button:hover {
+  border: solid 2px #9278ee;
+  color: #9278ee;
+  background-color: white;
+  border-radius: 6px;
+  height: 40px;
+  width: 100%;
+
+}
+
+.link-button {
+  color: white;
+  text-decoration: none;
+}
+
+.link-button:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.flag {
+  width: 40px;
+
 }
