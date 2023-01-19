@@ -71,8 +71,7 @@ function Footer() {
 
 
                                 </div>
-                            </li>
-                        </ul>
+                          
                     </div>
                     <div class="col-5  paddingRight70" >
 
